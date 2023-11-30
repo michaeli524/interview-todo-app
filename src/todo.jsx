@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useEffect } from "react";
 
 export default function TodoApp() {
   const [todoData, setTodoData] = useState([]);
